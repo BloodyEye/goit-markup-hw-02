@@ -5,3 +5,8 @@ body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
+.container{
+    background-color: aqua;
+    width: 1600px;
+    margin:  auto;
+}
