@@ -2,11 +2,16 @@
   --link-color: #2196f3;
   --back-color: #2f303a;
   --page-color: #f5f4fa;
-}
+  --page-color-white: #ffffff;
+  --background-color-dark: #2F303A;
+  --title-color: #212121;
+
+  }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -19,7 +24,6 @@ ul {
     list-style: none;
   }
 a {
-  text-decoration: none;
   color: inherit;
 }
 .logo-web {
@@ -43,7 +47,39 @@ a {
     padding-left: 15px;
     padding-right: 15px;
 }
-
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  color: var(--page-color-white);
+}
+h2 {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.666;
+  letter-spacing: 0.03em;
+}
+h3 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.134;
+  letter-spacing: 0.03em;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1,
+h3 {
+  text-transform: uppercase;
+}
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--title-color);
+}
 /*HEADER STYLE*/
 .navbar /*header-container*/,
 .nav-area /*nav-container*/,
@@ -53,7 +89,7 @@ a {
     align-items: center;
 }
 .site-nav{
-    margin-right: 93px;
+    margin-left: 93px;
 }
 .site-nav .item:not(:last-child){
     margin-right: 50px;
@@ -79,7 +115,6 @@ nav > a {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  padding-right: 20px;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -104,5 +139,18 @@ button {
   border-radius: 4px;
   background: #2196f3;
   color: white;
+}
+.container{
+  text-align: center;
+}
+.order{
+  background-color: var(--background-color-dark);
+  width: 1200px;
+  font-weight: 900;
+
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--page-color-white);
 }
 /* MAIN STYLE */
