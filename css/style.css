@@ -25,7 +25,9 @@ ul {
 a {
   color: inherit;
 }
-.logo-web {
+.logo-web,
+.ftr-logo-web {
+  text-decoration: none;
   color: #2196f3;
 }
 .logo-st {
@@ -36,7 +38,8 @@ a {
   padding: 0;
   list-style: none;
 }
-.link {
+.link,
+.ftr-link {
   text-decoration: none;
 }
 .container {
@@ -65,6 +68,10 @@ h2 {
   color: var(--title-color);
 }
 /*HEADER STYLE*/
+.header {
+  width: 1200px;
+  height: 80px;
+}
 .navbar /*header-container*/,
 .nav-area /*nav-container*/,
 .site-nav,
@@ -111,6 +118,8 @@ nav > a {
 /*HEADER STYLE*/
 
 /* MAIN STYLE */
+.order {
+}
 .order-btn {
   /* font-family: Roboto;
   font-style: normal;
@@ -192,10 +201,10 @@ nav > a {
 }
 /*speciality work*/
 /*service section*/
-.service{
+.service {
   padding-top: 0;
 }
-.service-list{
+.service-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -210,18 +219,24 @@ nav > a {
 }
 /*service section*/
 /*OUR TEAM*/
-.our-team{
+.team {
+  width: 1200px;
+  height: 648px;
+  background-color: var(--page-color);
+}
+.our-team {
   display: flex;
 }
-.our-team > li:not(:last-child){
-margin-right: 30px;
+.our-team > li:not(:last-child) {
+  margin-right: 30px;
 }
-.our-team > li{
+.our-team > li {
   display: block;
   width: 270px;
   height: 260px;
+  margin-bottom: 94px;
 }
-.our-team h3{
+.our-team h3 {
   margin-bottom: 10px;
   padding-top: 30px;
   font-weight: 500;
@@ -231,14 +246,50 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.profession{
+.profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 /*OUR TEAM*/
 
 /* MAIN STYLE */
+/*FOOTER*/
+.footer {
+  height: 252px;
+  width: 1200px;
+  background-color: var(--background-color-dark);
+}
+.ftr-data {
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 215px;
+}
+.ftr-logo-web {
+  width: 231px;
+  height: 132px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer .logo-st {
+  color: var(--page-color-white);
+}
+.ftr-adress {
+  width: 231px;
+  margin-top: 20px;
+}
+.ftr-adress > li {
+  padding-bottom: 9px;
+}
+.ftr-adress .link {
+  color: var(--page-color-white);
+}
+.ftr-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*FOOTER*/
