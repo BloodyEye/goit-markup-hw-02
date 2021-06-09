@@ -35,7 +35,7 @@
 /* ------End Hide Headers------ */
 
 body {
-  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--common-color);
   background-color: var(--white);
 }
@@ -80,7 +80,7 @@ body {
 /* Main content and Header fonts */
 
 .site-nav .link,
-.header.link {
+.mail-phone .link {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -160,7 +160,7 @@ body {
 
 /* Sections Service */
 
-.section > .sevice-title {
+.team > .service-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -271,7 +271,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.ftr-adress{
+a#adr-link{
   color: var(--white);
 }
 
