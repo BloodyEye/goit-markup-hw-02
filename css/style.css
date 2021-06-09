@@ -160,6 +160,7 @@ body {
 
 /* Sections Service */
 
+.service > .service-title,
 .team > .service-title {
   font-weight: 700;
   font-size: 36px;
